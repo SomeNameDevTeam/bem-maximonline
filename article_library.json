@@ -1,0 +1,45 @@
+[{
+	"label":"Заголовок",
+	"tag":"article-library-title",
+	"mods":[
+	{"title":"Ширина 100%","value":"wide"},
+	{"title":"По правому краю","value":"wide basic"},
+	{"title":"По ширине текста","value":"text-width two-lines"},
+	{"title":"По ширине текста смещенный от края","value":"two-lines text-width basic"},
+	{"title":"Оранжевый","value":"theme_orange"},
+	{"title":"Красный","value":"theme_red"},
+	{"title":"Желтый","value":"theme_yellow"},
+	{"title":"Розовый","value":"theme_pink"},
+	{"title":"Черный","value":"theme_black"},
+	{"title":"Черный с точкой","value":"theme_black theme_black_red-square"},
+	{"title":"C красной границей","value":"theme_border theme_border-red"},
+	{"title":"C оранжевой границей","value":"theme_border theme_border-orange"},
+	{"title":"C черной границей","value":"theme_border theme_border-black"},
+	{"title":"C розовой границей","value":"theme_border theme_border-pink"}
+	]
+	},
+{
+	"label":"Врезка",
+	"tag":"article-library-incut",
+	"mods":[
+	{"title":"Оранжевый","value":"article-library-incut_theme_orange"},
+	{"title":"Красный","value":"article-library-incut_theme_red"},
+	{"title":"Черный","value":"article-library-incut_theme_black"},
+	{"title":"ж-files","value":"article-library-incut_theme_g-files"}
+	]
+},
+{
+	"label":"Подзаголовок врезки",
+	"tag":"incut-subtitle",
+	"mods":[
+	{"title":"Подзаголовок","value":"subtitle"}
+	]
+},
+{
+	"label":"Ссылка на Twitter",
+	"tag":"article-library-twitter-link",
+	"mods":[
+	{"title":"Ссылка на Twitter","value":"subtitle"}
+	]
+}
+]

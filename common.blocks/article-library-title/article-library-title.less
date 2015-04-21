@@ -1,0 +1,92 @@
+.article-library-title{    
+    display: block;
+    overflow: hidden;
+    margin-left: -18px;
+    padding-right:13px;
+    padding-left:18px;
+    width: 100%;
+    margin-bottom:15px;
+    &__text{
+        font-weight:bold;
+    }
+    &_basic {
+        margin-left:18px;
+    }
+    &_wide {
+        line-height:100%;
+        padding: 10px 0 11px 0; 
+        font-size: 213%;
+        width:100%;
+    }
+    &_text-width {
+        line-height:72%;
+        display:inline-block;
+    }
+    &_two-lines {
+        line-height:121%;
+        font-size: 257%;
+        display: inline;
+    }
+    &_theme{
+        .theme-colors(@background-color; @box-shadow; @color:#000) {
+            background-color:@background-color;
+            box-shadow: -18px 0px 0px 0px @box-shadow, 13px 0px 0px 0px @box-shadow;
+            color: @color;
+        }
+        &_orange {
+            .theme-colors(@background-color:#ff9b00; @box-shadow:#ff9b00);
+        }
+        &_yellow {
+            .theme-colors(@background-color:#feea00; @box-shadow:#feea00);
+        }
+        &_black {
+            .theme-colors(@background-color:#000; @box-shadow:#000; @color:#fff);
+            &_red-square {
+                font-size:23px;
+                font-weight:normal;
+                &:before {
+                    content:'';
+                    width: 10px; 
+                    height: 10px; 
+                    background: #BA0009; 
+                    display:inline-block; 
+                    margin-right:10px; 
+                    position:relative; 
+                    top:-2px
+                }
+            }
+        }
+        &_red {
+            .theme-colors(@background-color:#ba0009; @box-shadow:#ba0009; @color:#fff);   
+        }
+        &_pink {
+            .theme-colors(@background-color:#d571b9; @box-shadow:#d571b9; @color:#fff);   
+        }
+        &_border{
+            padding-left:15px;
+            padding-right:15px;  
+            line-height:135%;
+            margin-left:0px;
+            &-red {
+                border-top:3px solid #ba0009;
+                border-bottom:3px solid #ba0009;
+                color:#ba0009;
+            }
+            &-orange {
+                border-top:3px solid #ff9b00;
+                border-bottom:3px solid #ff9b00;
+                color:#ff9b00;
+            } 
+            &-black {
+                border-top:3px solid #000;
+                border-bottom:3px solid #000;
+                color:#000;
+            }
+            &-pink {
+                border-top:3px solid #d571b9;
+                border-bottom:3px solid #d571b9;
+                color:#d571b9;
+            }
+        }
+    }
+}
